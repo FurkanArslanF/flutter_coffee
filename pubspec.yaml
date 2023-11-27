@@ -28,6 +28,8 @@ flutter:
     - assets/
     - assets/home/
     - assets/splash/
+    - assets/coffee/
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
