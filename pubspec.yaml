@@ -13,6 +13,7 @@ dependencies:
   go_router: ^12.1.1
   sizer: ^2.0.15
   kartal: ^3.5.0
+  persistent_bottom_nav_bar: ^5.0.2
 
 dev_dependencies:
   flutter_test:
@@ -25,7 +26,9 @@ flutter:
 
   assets:
     - assets/
+    - assets/home/
     - assets/splash/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

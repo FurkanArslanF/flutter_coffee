@@ -8,10 +8,11 @@ class ImageConstants {
 
   String splashBg = "assets/splash/bg.png";
   String splashLogo = "assets/splash/bg.png";
+  String homeReward = "assets/home/rewardcoffee.png";
 }
 
 extension ImageConstantsExtension on ImageConstants {
-  void load(BuildContext context) {
-    Image.asset(splashBg);
+  Widget load(String path) {
+    return Image.asset(path);
   }
 }

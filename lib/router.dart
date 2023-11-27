@@ -1,5 +1,5 @@
+import 'package:coffee_app/product/navigation/navbar.dart';
 import 'package:coffee_app/view/error.dart';
-import 'package:coffee_app/view/home/view/home.dart';
 import 'package:coffee_app/view/login/view/sign_in_view.dart';
 import 'package:coffee_app/view/splash/view/splash.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +12,7 @@ class RouterManager {
   static const signIn = '/signIn';
 
   static Widget _splashRoute(BuildContext context, GoRouterState state) => const SplashView();
-  static Widget _homeRoute(BuildContext context, GoRouterState state) => const HomeScreen();
+  static Widget _homeRoute(BuildContext context, GoRouterState state) => const NavbarWrapper();
   static Widget _signInRoute(BuildContext context, GoRouterState state) => const SignInView();
 
   static Widget _errorRoute(BuildContext context, GoRouterState state) => const ErrorScreen();
